@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: Under Construction
+title: Steven Folek
 
 # Short description of your site
-description: Under Construction
+description: SF CyberSec Blog
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -20,10 +20,10 @@ baseurl: ""
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: ""
+  About Me: "aboutme"
   Resources:
     - Pir00t Github: "https://github.com/Pir00t/"
-  About Me / Contact: "aboutme"
+  Contact: ""
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -52,7 +52,7 @@ footer-link-col: "#404040"
 
 # navbar-img: "/img/bgimage.png"
 # footer-img: "/img/bgimage.png"
-# page-img: "/img/bgimage.png"
+# page-img: "/img/cctv.jpg"
 
 # --- Footer options --- #
 
@@ -66,7 +66,7 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+#rss: true
   email: "cybersecureguy@gmail.com"
 #facebook: deanattali
   github: Pir00t
@@ -155,7 +155,7 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Europe/London"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
