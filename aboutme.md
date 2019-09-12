@@ -27,8 +27,11 @@ Pir00t
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
 <br>
-<strong>Python</strong> is my language of choice for programming. I use it regularly to automate mundane tasks and analysis <i>(great for parsing documents)</i>. The modularity is efficient too for working on larger projects. Some projects may appear on my <a href="https://github.com/Pir00t" target="_blank">Github</a> when I feel they are up to scratch! 
+<strong>Python</strong> is my language of choice for programming. I use it regularly to automate mundane tasks and analysis <i>(great for parsing documents)</i>. The modularity is efficient too for working on larger projects. Some projects may appear on my <a href="https://github.com/Pir00t" target="_blank">Github</a> when I feel they are up to scratch! <br>
 </p>
+
+<span class="fa fa-terminal about-icon"></span>
+
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
