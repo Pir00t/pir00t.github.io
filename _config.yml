@@ -11,7 +11,7 @@ description: CybrSec Materia
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-url: "https://github.com/Pir00t/pir00t.github.io"
+url: "https://pir00t.github.io"
 
 # baseurl should be an empty string
 baseurl: ""
