@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: Steven Folek
+title: UltimaCybr
 
 # Short description of your site
-description: CybrSec Materia
+description: Materia
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -23,7 +23,6 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - Pir00t Github: "https://github.com/Pir00t/"
-  Contact: ""
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -39,10 +38,10 @@ avatar: "/img/under_construction.png"
 
 navbar-col: "#F5F5F5"
 navbar-text-col: "#FFFAFA"
-navbar-children-col: "#807D7D"
+navbar-children-col: "#012E40"
 page-col: "##4A334F"
-link-col: "#CC5214"
-hover-col: "#FF9C40"
+link-col: "#04D976"
+hover-col: "#038C4C"
 footer-col: "#F5F5F5"
 footer-text-col: "#FFFAFA"
 footer-link-col: "#708090"
@@ -70,7 +69,7 @@ social-network-links:
   email: "cybersecureguy@gmail.com"
 #facebook: deanattali
   github: Pir00t
-  twitter: Pir00t
+  twitter: stevenfolek
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -92,7 +91,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "stevenfolek.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
