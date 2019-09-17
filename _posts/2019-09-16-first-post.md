@@ -7,7 +7,7 @@ social-share: false
 
 Hello, **welcome** to my blog. 
 
-I've been telling myself for quite a while now that I would get around to making a blog or website but kept putting it off. After much trawling through other blogs on _"How to blog"_ and _"best blog hosting providers"_, it seems something has finally materialised! 
+I've been telling myself for a while now that I would get around to making a blog or website but continually put it off. After much trawling through other blogs on _"How to blog"_ and _"best blog hosting providers"_, it seems something has finally materialised! 
 
 > **(Disclaimer: I can't say for sure my content will be any good but lets wait and see :sweat_smile:)**
 
