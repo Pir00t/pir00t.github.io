@@ -16,6 +16,7 @@ Moving on, a list of what I hope to publish on here:
 - Coding Updates
 - HowTo Guides - Tooling
 - Malware Analysis Write-ups
+- IOCs of trending Malware
 
 Social sharing will be enabled for most posts if someone reads anything deemed worthy of sharing.
 
