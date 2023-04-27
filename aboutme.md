@@ -52,10 +52,11 @@ Obtained a First Class Honours Degree (BEng) in <strong>Computer Security and Fo
 <p class="about-text">
 <span class="fa fa-heart about-icon"></span>
 <br>
-I'm a big fan of self learning and continued development. When time allows, I actively participate on CTF style sites such as <a href="https://ctflearn.com/" target="_blank">CTFLearn</a> and <a href="https://www.hackthebox.eu/" target="_blank">HackTheBox</a>. <br>Currently learning Russian (Duolingo is fantastic!)
+I'm a big fan of self learning and continued development. When time allows, I actively participate on sites such as <a href="https://cyberdefenders.org/" target="_blank">CyberDefenders</a> and <a href="https://www.hackthebox.eu/" target="_blank">HackTheBox</a>. <br>I also dabble in learning Russian (Duolingo is fantastic!)
 </p>
 
 <p class="about-text">
 <span class="fa fa-connectdevelop about-icon"></span>
 <br>
-You can email me or find me on Twitter if you want to get in touch (links in footer!). It's always great to connect with new people so don't hesitate to send a message!
+Feel free to reach out using any of the links below. It's always great to connect with new people so don't hesitate to send a message!
+</p>
