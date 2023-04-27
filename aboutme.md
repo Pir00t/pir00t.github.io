@@ -56,7 +56,7 @@ I'm a big fan of self learning and continued development. When time allows, I ac
 </p>
 
 <p class="about-text">
-<i class="fa fa-connectdevelop"></i>
+<i class="fa fa-users"></i>
 <br>
 Feel free to reach out using any of the links below. It's always great to connect with new people so don't hesitate to send a message!
 </p>
