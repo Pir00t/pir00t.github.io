@@ -13,7 +13,7 @@ In todays world of cyber, there are so many resources out there to learn from, b
 
 I thoroughly enjoy a good CTF. I'm in a fortunate position work wise right now where I've got a team who also like competing in them now and again, something I've never had before. To me they can be extremely useful, and frustrating at times, but overall being able to practice skills you don't get to utilise regularly is a win-win. They can also be an opportunity to explore the _"other"_ side, be that red or blue.
 
-![Frustrated](assets\img\ctf_frustration.jpg)
+![Frustrated](assets/img/ctf_frustration.jpg)
 
 I've utilised CTFs or sites that host CTF style challenges to refresh my knowledge and identify gaps I want to work on. In recent times, they've led me to pick up some new and extremely useful tools as well!
 
