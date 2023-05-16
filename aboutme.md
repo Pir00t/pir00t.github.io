@@ -2,6 +2,7 @@
 layout: page
 title: About me
 subtitle: Facts or misdirection...
+social-share: false
 ---
 
 <p class="about-text">
@@ -27,7 +28,7 @@ Pir00t
 <p class="about-text">
 <i class="fa fa-code"></i>
 <br>
-<strong>Python</strong> is my language of choice for development. I use it regularly to automate mundane tasks and analysis <i>(great for parsing documents)</i>. The modularity is efficient too for working on larger projects.<br> Some projects may appear on my <a href="https://github.com/Pir00t" target="_blank">Github</a> when I feel they are up to scratch! <br>
+<strong>Python</strong> is my language of choice for development. I use it regularly to automate mundane tasks and analysis <i>(great for data processing)</i>. The modularity is efficient too for working on larger projects.<br> Some projects may appear on my <a href="https://github.com/Pir00t" target="_blank">Github</a> when I feel they are up to scratch! <br>
 </p>
 
 <p class="about-text">

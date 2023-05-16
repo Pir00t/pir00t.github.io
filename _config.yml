@@ -22,8 +22,8 @@ author: Steven Folek
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Blog Setup: blog_init
+    - CTF / Learning: "ctf_resources"
   Pir00t Github: "https://github.com/Pir00t/"
 
 ################
