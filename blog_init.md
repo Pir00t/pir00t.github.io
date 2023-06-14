@@ -10,6 +10,7 @@ tags: [general]
 This process is based upon using a template already setup on Github (the same one as this blog) which helps speed up the process and avoids the overhead of coding an entire site yourself. Therefore, most steps here are links to self contained, simple to follow guides that'll help you get up and running in a timely fashion!
 
 1. Fork the repo required: [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll)
+
   a. This repo contains a handy "how to" on the setup, as well as features and tips for customising your blog
 2. Configure your domain: [Domain Setup](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain)
 3. New details on cloning and pushing to Github: [Git Remote Repos](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls)
