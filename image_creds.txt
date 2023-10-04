@@ -1,11 +1,14 @@
 2023-04-27-reboot.md
     Thumbnail - https://finalfantasy.fandom.com/wiki/Phoenix_Down?file=PhoenixDown.PNG
 
-2023-04-29
+2023-04-28-ltdh23.md
     Cover - https://staff.napier.ac.uk/services/facilities/sustainability/transport/Pages/Craiglockhart-Travel.aspx
     Thumbnail - https://twitter.com/enusec/status/1649643317942943744
 
-2023-07-07
+2023-07-07-CVE_2023_35829.md
     Cover - https://ichef.bbci.co.uk/images/ic/1008xn/p08zqkh0.jpg
     Thumbnail - http://www.quickmeme.com/meme/3s8vby
-    Poc - https://imgflip.com/i/7rtsn2
+	Poc - https://imgflip.com/i/7rtsn2
+
+2023-10-04-Sysrv.md
+	Thumbnail - made with https://gopherize.me/gopher/654c33c8ec454c31431af4456265d03d1ff91cc4
