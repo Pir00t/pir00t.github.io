@@ -6,4 +6,4 @@ tags: [CTF, Learning, Huntress]
 ---
 
 # Content incoming
-[Warmups]("/assets/writeups/huntress23_warmup.md")
+[Warmups](assets/writeups/huntress23_warmup.md)
