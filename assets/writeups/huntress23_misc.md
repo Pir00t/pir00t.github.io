@@ -27,7 +27,7 @@ Before firing up x64dbg, I popped the file into CFF Explorer and validated the b
 
 Note that here, the ZF is set to 1 (highlighted purple). Double click this value to change it to 0, then continue running the program to get the flag:
 
-![rppwin](/assets/img/huntress_ctf23/wppwin.png)
+![rppwin](/assets/img/huntress_ctf23/rppwin.png)
 
 **`flag{35bed450ed9ac9fcb3f5f8d547873be9}`**
 
