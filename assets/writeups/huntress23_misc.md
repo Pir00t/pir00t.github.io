@@ -133,6 +133,52 @@ I'm not entirely sure what was up with this challenge, it felt a bit "guessy". E
 
 **`flag{10c0e4ed5fcc3259a1b0229264961590}`**
 
+# Indirect Payload - Medium
+
+_We saw this odd technique in a previous malware sample, where it would uncover it's next payload by... well, you'll see._ 
+
+Connect to the instance with Developer Tools open. In the network tab the page keeps trying to redirect. Try using `curl` to follow the redirects and find out that it has a 50 redirect limit by default. Try raising to 100 but this also hits the limit. Double the redirect follow limit again to 200 and this seems to work as I now have a **sorry.php** but with no useable data to note.
+
+Run wireshark and submit request again then view http objects. Spot a trend in 302 responses that they are providing single characters to build the flag! Extract these HTTP Objects, though unfortunately the order is not kept. Write a python script to read each file and extract the flag in order:
+
+```python
+import os
+
+def get_files():
+    redir_txt = []
+
+    for file in os.listdir('.'):
+        if file.endswith('.php'):
+            with open(file, 'r') as f:
+                content = f.read().strip()
+                redir_txt.append(content)
+    return redir_txt
+
+def sort_order(content):
+    words = content.split()
+    for word in words:
+        if word.isdigit():
+            return int(word)
+    return 0
+
+def get_flag(content):
+    flag_chars = []
+    for item in content:
+        flag_chars.append(item.split()[-1])
+
+    print(''.join(flag_chars))
+
+def main():
+    content = get_files()
+    ordered = sorted(content, key=sort_order)
+    get_flag([item for item in ordered if item != '']) # drop any '' values in list that cause errors
+
+if __name__ == '__main__':
+    main()
+```
+
+**`flag{448c05ab3e3a7d68e3509eb85e87206f}`**
+
 # Welcome to the Park - Easy
 
 _The creator of Jurassic Park is in hiding... amongst Mach-O files, apparently. Can you find him?_
