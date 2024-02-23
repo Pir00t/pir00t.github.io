@@ -12,3 +12,7 @@
 
 2023-10-04-Sysrv.md
 	Thumbnail - made with https://gopherize.me/gopher/654c33c8ec454c31431af4456265d03d1ff91cc4
+
+2024-02-23-Vbox_mlwlab.md  
+    Cover - https://assets.digitalocean.com/awesomeness/linux_terminal_wallpaper.png
+    Thumbnail - https://www.cleanpng.com/png-penguin-tux-of-math-command-linux-from-scratch-lin-5968343/preview.html
