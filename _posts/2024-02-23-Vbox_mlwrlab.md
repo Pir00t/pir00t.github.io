@@ -95,9 +95,9 @@ The addition of a firewall in this guide is to provide an added layer of protect
 
 To get started head [here](https://www.pfsense.org/download/) to download the latest stable release (Community Edition). Make sure to select **DVD Image (ISO) Installer**.
 
-Over in VirtualBox Manager, you want to select **Machine > New** from the menu dropdown. Name the machine and select the downloaded ISO. At this point the OS Type and Version may change to "Other" and "Other/Unknown". Change Type to **BSD** and Version to FreeBSD (64-bit) and hit next. Give the guest at least 1GB memory, 2 CPUs and 16GB Virtual Size Storage before clicking next to get a summary page, and click Finish to complete this part.
+Over in VirtualBox Manager, you want to select **Machine > New** from the menu dropdown. Name the machine and select the downloaded ISO. At this point the OS Type and Version may change to "Other" and "Other/Unknown". Change Type to **BSD** and Version to **FreeBSD (64-bit)** and hit next. Give the guest at least **1GB** memory, **2** CPUs and **16GB** Virtual Size Storage before clicking next to get a summary page, and click Finish to complete this part.
 
-Open the Settings for your pfSense guest and head to the **Network** tab. Adapter 1 should be NAT by default so let's keep it that way. Click Adapter 2 and configure this as **Internal Network** (name it whatever you like such as _malnet_).
+Open the Settings for your pfSense guest in VirtualBox Manager and head to the **Network** tab. Adapter 1 should be NAT by default so let's keep it that way. Click Adapter 2 and configure this as **Internal Network** (name it whatever you like such as _malnet_).
 
 Start up the host and you'll be greeted by a usage agreement screen. Click accept and continue through the install wizard, accepting the defaults as you go (_when you hit a section to select a disk to partition (ZFS Configuration), hit **space** to select the disk)_. Once the install is complete, you will be asked to reboot (remove the ISO here or shutdown and remove if it is locked out). 
 
@@ -125,7 +125,7 @@ Assuming all is well with the setup, fire up a web browser in REMnux and navigat
 
 Default login is `UN:admin / PW: pfsense` which should lead you into a setup wizard. The defaults here are generally fine, though do change the admin password (good habits and all!).
 
-At this point, I was able to test connectivity between my REMnux guest and pfSense via ping, however, I noted no DNS resolution. By clicking **System > General Setup** from the top menu, you can find the section to update DNS Server Settings. Add whatever you like, in this case `8.8.8.8` works just fine for resolution purposes as demonstrated below:
+At this point, I was able to test connectivity between my REMnux guest and pfSense via ping, however, I noted no DNS resolution. By clicking **System > General Setup** from the top menu, you can find the section to update DNS Server Settings. Add whatever DNS resolver you like, in this case `8.8.8.8` works just fine for resolution purposes as demonstrated below:
 
 ![dns.png](/assets/img/mlwrlab/pfsense_dns.png)
 
