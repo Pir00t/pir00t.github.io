@@ -129,6 +129,18 @@ At this point, I was able to test connectivity between my REMnux guest and pfSen
 
 ![dns.png](/assets/img/mlwrlab/pfsense_dns.png)
 
+---
+
+#### Sudden DNS Issues with pfSense and VPN? (It Might Be Your Provider)*
+
+Recently I noticed a change in behaviour within my lab in that when I was connected to VPN on my host, I would lose internet connectivity! After a bit of poking around, it seems my provider has made some upstream changes to their servers which was dropping all traffic coming from the pfSense guest. If this happens, the steps I took to resolve were:
+
+- Add VPN provider DNS server(s) in settings as above
+- Services > DNS Resolver > General Settings
+  - Enable Forwarding Mode (Save and Apply)
+
+---
+
 Finally, to ensure that your host network is actually isolated, click **Firewall > Rules** from the top menu bar, and you can edit the required interface rules. Within the LAN tab, add a new rule with the following values (edit Destination IP to whatever your physical network range is):
 
 - Action: Block
@@ -149,3 +161,5 @@ Up next, I'll be discussing my _"approach"_ and tooling that I utilise for stati
 [^1]: https://www.VirtualBox.org/ 
 [^2]: https://www.pfsense.org/download/
 [^3]: https://docs.remnux.org/install-distro/get-virtual-appliance
+
+*updated: 19/03/2024*
