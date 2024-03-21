@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Facts or misdirection...
+subtitle: Past and Present Info
 social-share: false
 ---
 

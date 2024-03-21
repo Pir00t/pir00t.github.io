@@ -26,6 +26,7 @@ navbar-links:
   Resources:
     - Blog Setup: "blog_init"
     - CTF / Learning: "ctf_resources"
+    - Yara Rules: "https://github.com/Pir00t/Yara-Rules"
   Pir00t Github: "https://github.com/Pir00t/"
 
 ################
