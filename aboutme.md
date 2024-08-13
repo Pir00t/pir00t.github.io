@@ -15,20 +15,34 @@ Pir00t
 
 <p class="about-text">
 <i class="fa fa-briefcase"></i>
-<br><strong>Principal Security Analyst @ Oracle</strong>
-<br>Current focus: <i>Digital Forensics (Cloud)</i> | <i><font color="red">Malware Analysis</font></i> | <i>Reverse Engineering</i><br>Other skills:
+<br><strong>Senior Principal Security Analyst @ Oracle</strong>
+<br>Current focus: <i>Digital Forensics (Cloud)</i> | <i><font color="red">Malware Analysis</font></i> | <i>Reverse Engineering</i><br><br>Skilled in:
  <ul>
-  <li>Automation</li>
   <li>Cyber Threat Intelligence</li>
-  <li>Fraud Prevention</li>
-  <li>Incident Response</li>
+   <ul>
+    <li>OSINT</li>
+    <li>Threat Hunting</li>
+   </ul>
+  <li>DFIR</li>
+   <ul>
+    <li>Linux & Windows analysis</li>
+    <li>Fast-forensics & triage</li>
+    <li>Root cause analysis</li>
+    <li>Memory forensics</li>
+    <li>Network forensics</li>
+   </ul>
 </ul> 
 </p>
 
 <p class="about-text">
 <i class="fa fa-code"></i>
 <br>
-<strong>Python</strong> is my language of choice for development. I use it regularly to automate mundane tasks and analysis <i>(great for data processing)</i>. The modularity is efficient too for working on larger projects.<br> Some projects may appear on my <a href="https://github.com/Pir00t" target="_blank">Github</a> when I feel they are up to scratch! <br>
+<strong>Python</strong> 
+<ul>
+  <li>Automation</li>
+  <li>Standalone tooling</li>
+  <li>Custom security tooling</li>
+</ul>
 </p>
 
 <p class="about-text">
