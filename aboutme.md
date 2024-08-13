@@ -48,20 +48,17 @@ Pir00t
 <p class="about-text">
 <i class="fa fa-history"></i>
 <br>
-Worked alongside <a href="https://www.napier.ac.uk/people/owen-lo" target="_blank"> Dr Owen Lo</a> as part of a summer internship (2016) on his research project; <i>Practical side-channel attacks on embedded device cryptography</i>. <br>
-</p>
-
-<blockquote><i>The work focussed on attacks based on monitoring the power consumption of a device. In particular, the aim was to present the findings on performing power analysis attacks against the AES-128 algorithm by monitoring the power consumption of a microcontroller (Arduino Uno) while cryptographic operations take place.</i></blockquote>
-
-My primary contribution was establishing an efficient method of parsing the power analysis output for both attack methods discussed (CPA, DPA), in order to recover the 16-byte cipher key. A presentation of the overall work, including the usage of my <strong>Python Script</strong> for obtaining the cipher key can be seen on <a href="https://www.youtube.com/watch?v=7D-Hr4Nw0T4" target="_blank">YouTube</a>.
-
-
+Previous job roles can be found on my <a href="https://www.linkedin.com/in/steven-folek-822aa9a0/" target="_blank"> LinkedIn</a>. 
+<br>
+Along the way, I've worked on some interesting projects, such as my 2016 summmer internship: <i>Practical side-channel attacks on embedded device cryptography</i>. The presented work and my contribution on key extraction can be viewed on <a href="https://www.youtube.com/watch?v=7D-Hr4Nw0T4" target="_blank">YouTube</a>.
+<br>
+Aside from my cyber security background, my university placement as a Helpdesk Technician for an MSP was invaluable in solidifying my IT and networking foundations. This role exposed me to a range of diverse clientele and technologies, while also honing my ability to translate complex technical concepts into clear and concise language for both staff and executive stakeholders. This experience culminated in a pivotal role as the IT and networking lead for the Edinburgh International Film Festival. 
 
 <p class="about-text">
 <i class="fa fa-graduation-cap"></i>
 <br>
 Obtained a First Class Honours Degree (BEng) in <strong>Computer Security and Forensics</strong> from Edinburgh Napier University (supervised by the brilliant
-<a href="https://www.napier.ac.uk/people/bill-buchanan" target="_blank">Bill Buchanan OBE</a>). My honours <a href="http://www.iidi.napier.ac.uk/c/publications/publicationid/13388150" target="_blank">project </a> involved the creation of <i>Ransomware Analysis and Detection Systems</i> with a focus on portability.
+<a href="https://www.napier.ac.uk/people/bill-buchanan" target="_blank">Bill Buchanan OBE</a>). My honours <a href="https://web.archive.org/web/20190214195159/https://www.iidi.napier.ac.uk/c/publications/publicationid/13388150" target="_blank">project </a> involved the creation of <i>Ransomware Analysis and Detection Systems</i> with a focus on portability.
 </p>
 
 <p class="about-text">
