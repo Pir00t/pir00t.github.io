@@ -51,7 +51,7 @@ Pir00t
 Previous job roles can be found on my <a href="https://www.linkedin.com/in/steven-folek-822aa9a0/" target="_blank"> LinkedIn</a>. 
 <br>
 Along the way, I've worked on some interesting projects, such as my 2016 summmer internship: <i>Practical side-channel attacks on embedded device cryptography</i>. The presented work and my contribution on key extraction can be viewed on <a href="https://www.youtube.com/watch?v=7D-Hr4Nw0T4" target="_blank">YouTube</a>.
-<br>
+<br><br>
 Aside from my cyber security background, my university placement as a Helpdesk Technician for an MSP was invaluable in solidifying my IT and networking foundations. This role exposed me to a range of diverse clientele and technologies, while also honing my ability to translate complex technical concepts into clear and concise language for both staff and executive stakeholders. This experience culminated in a pivotal role as the IT and networking lead for the Edinburgh International Film Festival. 
 
 <p class="about-text">
