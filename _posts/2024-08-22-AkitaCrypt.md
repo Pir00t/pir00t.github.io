@@ -3,7 +3,7 @@ layout: post
 title: AkitaCrypt
 subtitle: More bark, less bite?
 cover-img: /assets/img/akita/akita_padlock.jpg
-thumbnail-img: /assets/img/akita/akita_1.png
+thumbnail-img: /assets/img/akita/akita_1.jpg
 share-img: /assets/img/akita/akita_padlock.jpg
 tags: [linux, malware, reverse engineering, akitacrypt, rust]
 ---
@@ -66,7 +66,7 @@ Interesting... We have some dropped files called **decrypt.html**. A quick check
 
 ![decrypt_html](/assets/img/akita/decrypt_html.png)
 
-Taking a look at the rendered file we get the ransom note as seen below. Interestingly, the note seems to threaten reporting to local news in Florida if payment isn't received. So was this targetted? The original VT submission was from Germany so maybe it missed the target? One item missing from the image below is the TA's ransom note image, which is an Akita dog holding a padlock _(image url in IoC section)_.
+Taking a look at the rendered file we get the ransom note as seen below. Interestingly, the note seems to threaten reporting to local news in Florida if payment isn't received. So was this targeted? The original VT submission was from Germany so maybe it missed the target? One item missing from the image below is the TA's ransom note image, which is an Akita dog holding a padlock _(image url in IoC section)_.
 
 ![ransom_note](/assets/img/akita/ransom_note.png)
 
@@ -125,21 +125,21 @@ I've grouped these functions together because, well...they call the same functio
 
 First off, the encrypt/decrypt function will open and read data from the files. Next, the call to **from_iter** passes a memory address, and the data for encryption/decryption. 
 
-When diving into this binary, I anticipated a challenging exploration to uncover its encryption mechanisms. To my surprise, the encryption employed in this sample is quite straightforward: it uses a simple `XOR` operation with a provided or hardcoded key. In the binary's code, the assembly instructions will look like:
+When diving into this binary, I anticipated a challenging exploration to uncover its encryption mechanisms. To my surprise, the encryption employed in this sample is quite straightforward: it uses a standard `XOR` operation with a provided or hardcoded key. In the binary's code, the assembly instructions will look like:
 
 ```assembly
   xor    bl, BYTE PTR [r12]
 ```
 
-While XOR-based encryption is straightforward and easy to understand, it is generally not suitable for secure applications by itself. It is often used as part of more complex encryption methods or in cases where simplicity is preferred over robust security.
+While XOR-based encryption is straightforward and easy to understand, it is often used as part of more complex encryption methods.
 
-I was able to validate the findings by utilising the debugger, and running the binary twice to recover my encrypted test files. Interestingly, there is no check in place to stop the ransom note from being encrypted as well!
+I was able to validate the above findings by utilising the debugger, and running the binary twice to recover my encrypted test files. Interestingly, there is no check in place to stop the ransom note from being encrypted as well!
 
 As well as running the binary a second time, I further validated it was XOR by taking the hex bytes from an encrypted test file that contained the text: _test text to encrypt_, popping them into [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')XOR(%7B'option':'Latin1','string':'bC4iWz40AW1Zdqwojdqo19203192nNaCM7yCKbv'%7D,'Standard',false)&input=MTYgMjYgNDcgMWQgNzcgMGUgNTEgNDggMzUgNzcgNDUgMzUgNDQgMTQgMTkgMGMgMTggMWQgMDEgMWI&oeol=VT) and successfully decrypting back to plaintext.
 
 # Conclusion
 
-Despite the claims made by the threat actors about the sophistication and undetectability of their product, a closer inspection reveals a much more basic reality — unless, of course, the binary was poorly configured with manual options that were supposedly available! The encryption method used is surprisingly straightforward, relying solely on a basic XOR algorithm with hardcoded data. While XOR can be effective in certain scenarios, it is far from cutting-edge or advanced for a serious threat actor. This contrast highlights the gap between marketing hype and actual technical complexity. In reality, what we have seen so far is a relatively simple implementation, underscoring the importance of critically assessing the true capabilities of cybersecurity threats.
+Despite the claims made by the threat actors about the sophistication and undetectability of their product, a closer inspection reveals a much more basic reality — unless, of course, the binary was poorly configured with manual options that were supposedly available! The encryption method used is surprisingly straightforward, relying solely on a basic XOR algorithm. While XOR can be effective in certain scenarios, it is far from cutting-edge or advanced for a serious threat actor. This contrast highlights the gap between marketing hype and actual technical complexity. In reality, what we have seen so far is a relatively simple implementation, underscoring the importance of critically assessing the true capabilities of cybersecurity threats.
 
 ---
 # IoCs
