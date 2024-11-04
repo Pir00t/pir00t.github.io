@@ -56,7 +56,7 @@ Joe
 
 # Malibu
 
-Going off the hint _"What do you bring to the beach?", this connection is likely for a bucket in the cloud. Nmap offered little in the service or provider detail so I tried curl instead. Access denied on just the address provided by the instance, however, appending /bucket returned an XML with bucket info!
+Going off the hint _"What do you bring to the beach?"_, this connection is likely for a bucket in the cloud. Nmap offered little in the service or provider detail so I tried curl instead. Access denied on just the address provided by the instance, however, appending /bucket returned an XML with bucket info!
 
 Next step, bucket object enumeration with some GPT assistance. So I made a script to parse the key and send requests for the data. 
 
@@ -206,7 +206,7 @@ Host A - `C:\Users\DeeDee\Documents\nc.exe`
 
 # 1200 transmissions
 
-No luck with audacity or Sonic Visualiser for quick checks of spectrum analysis. To me the file sounded like an old modem, so I Googled '1200 baud modem ctf' (hoping similar has been made as a challenge before!). To my delight, some writeups relating to modem tools. A quick skim of results finds this [tool](http://www.whence.com/minimodem/), which when downloaded and run like so:
+No luck with Audacity or Sonic Visualiser for quick checks of spectrum analysis. To me the file sounded like an old modem, so I Googled '1200 baud modem ctf' (hoping similar has been made as a challenge before!). To my delight, some writeups relating to modem tools. A quick skim of results finds this [tool](http://www.whence.com/minimodem/), which when downloaded and run like so:
 
 `minimodem -r -f transmissions.wav 1200`
 
@@ -222,7 +222,7 @@ An interesting challenge, with a PCAP that is purely ping related traffic. Immed
 - 40 bytes of data 
 - Data sections all consist of single byte i.e 40 A's or 40 B's etc.
 
-I asked chatGPT to write a script to extract all reply packets, take first character of the data section and if it matches my regex for common flag format, write it to file [a-gl0-9]:
+I asked ChatGPT to write a script to extract all reply packets, take first character of the data section and if it matches my regex for common flag format, write it to file [a-gl0-9]:
 
 ```python
 import re
@@ -287,7 +287,7 @@ Protocol mismatch.
 
 Trying to proxytunnel to a port and connect to localhost ssh presented more evidence this was the way to the flag, however, it only accepted ssh keys!
 
-After banging heads against the wall for a while and wanting to turn all squid into calamari, we took to checking what other ports may be open (all 65535). The problem with this approach was even with some multithreading, the scan was slow - I gave up extending my session at around 20%, in which time my teammate Kumomonomu had kept up the scanning, discovered that port 50000 was open and managed to get the flag.
+After banging heads against the wall for a while and wanting to turn all squid into calamari, we took to checking what other ports may be open (all 65535). The problem with this approach was even with some multithreading, the scan was slow - I gave up extending my session at around 20% and went to bed (or work I can't recall what hour this was solved!). Either way my teammate Kumomonomu had kept up the scanning, discovered that port 50000 was open and managed to get the flag.
 
 I had to validate my script would have worked so I tested it again using ports closer to the known open one and sure enough, I got a match. _Note: HEAD requests were much quicker and also avoided port 50000 keepalive that would cause the script to hang_.
 
@@ -348,4 +348,4 @@ find / -perm -4000 -exec ls -l {} \; 2>/dev/null
 
 `/bin/bash` was one such binary. Utilised like so would reveal the flag:
 
-![/assets/img/huntress_ctf24/perm2proxy.png]
+![perm2proxy](/assets/img/huntress_ctf24/perm2proxy.png)
