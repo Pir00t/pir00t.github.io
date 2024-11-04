@@ -11,9 +11,16 @@ For Cyber Security Awareness Month, the team at Huntress ran a CTF through the m
 
 This was the second year taking part in this competition and yet again I thoroughly enjoyed the experience and learnings!
 
-I was invited to join a team this year, which I am so glad that I did (and not just down to the unfavourable challenge release time for UK folks (with kids) this year!). I benefited from camaraderie and knowledge sharing and its great seeing other approaches to solving problems and sharing the workload. 
+I was invited to join a team this year, which I am so glad that I did _(and not just down to the unfavourable challenge release time for UK folks (with kids) this year!)_. I benefited from camaraderie and knowledge sharing. It is always great seeing other approaches to solving problems and splitting the workload, especially with multiple task releases!
 
-Our team **5 dogs in a trenchcoat** - completed 99% of the challenges; finishing in 50th place overall. Turns out we had been staring the data for our missing flag in the face for the final 24 hours or so, but just hadn't clicked things together in time for the final buzzer! 
+Our team **5 dogs in a trenchcoat** - completed 99% of the challenges; finishing in 50th place overall. Turns out we had been staring the data for our missing flag in the face for the final 24 hours or so, but just hadn't clicked things together in time before the final buzzer! 
+
+Other team members:
+
+- [Kumomonomu](https://github.com/JordanLinden)
+- [Oshikuru](https://jjolley91.github.io/blog/)
+- [dancrodev](https://github.com/dancrodev/cyberctf)
+- [CilantroToast](https://github.com/Sil3ntgh0st)
 
 ![huntress_ctf](/assets/img/huntress_ctf24/completion_cert.png)
 
@@ -21,4 +28,4 @@ In the links below I'll be providing my solutions to the challenges which are gr
 
 <placeholder for links>
 
-*_Other content and solutions for the CTF can be found on social media (X, LinkedIn at least) by searching `#HuntressCTF`._
+_Other content and solutions for the CTF can be found on social media (X, LinkedIn at least) by searching `#HuntressCTF`._
