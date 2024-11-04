@@ -28,4 +28,4 @@ In the links below I'll be providing my solutions to the challenges which are gr
 
 <placeholder for links>
 
-_Other content and solutions for the CTF can be found on social media (X, LinkedIn at least) by searching `#HuntressCTF`._
+_Other content and solutions for the CTF can be found on social media (X, LinkedIn at least) by searching_ `#HuntressCTF`
