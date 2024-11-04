@@ -23,6 +23,7 @@ navbar-links:
   About Me: "aboutme"
   Writeups: 
     - Huntress 2023: "hctf23_main"
+    - Huntress 2024: "hctf24_main"
   Resources:
     - Blog Setup: "blog_init"
     - CTF / Learning: "ctf_resources"
