@@ -32,28 +32,6 @@ Joe
 250 OK. flag{54c6ec05ca19565754351b7fcf9c03b2}
 ```
 
-# Nightmare on Hunt Street
-
-**What is the IP address of the host that the attacker used?**
-
-`10.1.1.42` - Ran Chainsaw and found this in lateral movement output.
-
-**Times brute forced (jsmith)**
-
-`32` - chainsaw output
-
-**What is the name of the offensive security tool that was used to gain initial access? Answer in all lowercase.**
-
-`psexec` - based on remote service being added (Event ID 7045) and the random named binary 
-
-**How many unique enumeration commands were run with net.exe? Answer just the integer value.**
-
-`3` - Performed search with Chainsaw for **net.exe**. Then a Regex in CyberChef to establish the count- CommandLine: .*
-
-**What password was successfully given to the user created?**
-
-`Susan123!` - found alongside previous answer
-
 # Malibu
 
 Going off the hint _"What do you bring to the beach?"_, this connection is likely for a bucket in the cloud. Nmap offered little in the service or provider detail so I tried curl instead. Access denied on just the address provided by the instance, however, appending /bucket returned an XML with bucket info!
@@ -181,28 +159,6 @@ bruteforce_with_permutations(chars, max_threads=5)
 Standard CyberChef options did not provide anything, then I recalled a similar challenge last year requiring a **base65536** [decoder](https://www.better-converter.com/Encoders-Decoders/Base65536-Decode). Success, of sorts in that now we have some base64 data. Decode in CyberChef with Gunzip to get an image which is a colour palette. Use this [site](https://imagecolorpicker.com/) to upload the image and obtain the hex of each colour to get build the flag:
 
 **`flag{586cf8c849c9730ea7b2112fff39ff6a}`**
-
-# Little Shop of Hashes
-
-**What is the name of the service that the attacker ran and stopped, which dumped hashes on the first compromised host?**
-
-Host B - `Remote Registry`
-
-**What lateral movement technique did the threat actor use to move to the other machine?**
-
-`Pass The Hash`
-
-**What is the full path of the binary that the threat actor used to access the privileges of a different user with explicit credentials?**
-
-`C:\Users\DeeDee\Documents\runasc.exe`
-
-**How many accounts were compromised by the threat actor?**
-
-Host A - `3` - Chainsaw, checked lateral movement output - excluding administrator = 3
-
-**What is the full path of the binary that was used as a callback to the threat actor's machine?**
-
-Host A - `C:\Users\DeeDee\Documents\nc.exe`
 
 # 1200 transmissions
 
