@@ -154,6 +154,18 @@ bruteforce_with_permutations(chars, max_threads=5)
 
 **`flag{dc9edf4624504202eec5d3fab10bbccd}`**
 
+# base64by32
+
+Use CyberChef to decode for flag. Recipe:
+
+```
+Label('top')
+From_Base64('A-Za-z0-9+/=',true,false)
+Jump('top',31)
+```
+
+**`flag{8b3980f3d33f2ad2f531f5365d0e3970}`**
+
 # Base-p-
 
 Standard CyberChef options did not provide anything, then I recalled a similar challenge last year requiring a **base65536** [decoder](https://www.better-converter.com/Encoders-Decoders/Base65536-Decode). Success, of sorts in that now we have some base64 data. Decode in CyberChef with Gunzip to get an image which is a colour palette. Use this [site](https://imagecolorpicker.com/) to upload the image and obtain the hex of each colour to get build the flag:

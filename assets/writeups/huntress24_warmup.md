@@ -18,18 +18,6 @@ Follow link provided. View the page source code and perform a search for _flag{_
 
 **`flag{90bc54705794a62015369fd8e86e557b}`**
 
-# base64by32
-
-Use CyberChef to decode for flag. Recipe:
-
-```
-Label('top')
-From_Base64('A-Za-z0-9+/=',true,false)
-Jump('top',31)
-```
-
-**`flag{8b3980f3d33f2ad2f531f5365d0e3970}`**
-
 # Too many bits
 
 Decode binary string with CyberChef:
