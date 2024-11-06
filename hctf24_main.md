@@ -28,6 +28,7 @@ In the links below I'll be providing my solutions to the challenges which are gr
 
 - [Warmups](assets/writeups/huntress24_warmup.md)
 - [Forensics](assets/writeups/huntress24_forensic.md)
+- [Malware](assets/writeups/huntress24_malware.md)
 - [Misc](assets/writeups/huntress24_misc.md)
 - [OSINT](assets/writeups/huntress24_osint.md)
 
