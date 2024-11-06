@@ -27,7 +27,10 @@ Other team members:
 In the links below I'll be providing my solutions to the challenges which are grouped together by category. **Note: some challenges listed had already been solved by teammates, but I still wanted to walkthrough my process to each problem for getting the flag.**
 
 - [Warmups](assets/writeups/huntress24_warmup.md)
-- [OSINT](assets/writeups/huntress24_osint.md)
+- [Forensics](assets/writeups/huntress24_forensic.md)
 - [Misc](assets/writeups/huntress24_misc.md)
+- [OSINT](assets/writeups/huntress24_osint.md)
+
+
 
 _Other content and solutions for the CTF can be found on social media (X, LinkedIn at least) by searching_ `#HuntressCTF`
