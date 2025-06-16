@@ -30,6 +30,7 @@ Pir00t
     <li>Root cause analysis</li>
     <li>Memory forensics</li>
     <li>Network forensics</li>
+    <li>Vulnerability analysis and detections</li>
    </ul>
 </ul> 
 </p>
@@ -64,7 +65,7 @@ Obtained a First Class Honours Degree (BEng) in <strong>Computer Security and Fo
 <p class="about-text">
 <i class="fa fa-heart"></i>
 <br>
-I'm a big fan of self learning and continued development. When time allows, I actively participate on sites such as <a href="https://cyberdefenders.org/" target="_blank">CyberDefenders</a> and <a href="https://www.hackthebox.eu/" target="_blank">HackTheBox</a>. <br>I also dabble in learning Russian (Duolingo is fantastic!)
+I'm a big fan of self learning and continued development. When time allows, I actively participate on sites such as <a href="https://cyberdefenders.org/" target="_blank">CyberDefenders</a> and <a href="https://www.hackthebox.eu/" target="_blank">HackTheBox</a>. <br>I also dabble in learning Polish and Russian (Duolingo is fantastic!)
 </p>
 
 <p class="about-text">
