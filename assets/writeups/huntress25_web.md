@@ -6,6 +6,9 @@ tags: [CTF, Learning, Web]
 
 # FlagChecker
 
+> We've decided to make this challenge really straight forward. All you have to do is find out the flag!
+> Juuuust make sure not to trip any of the security controls implemented to stop brute force attacks...
+
 Initial testing was to understand the number of requests that could be sent before hitting the suggested security controls in the challenge description. Turned out to be 10.
 
 Established this by sending `curl` requests with the `time` command that each correct character seemed to increase the response time. At this point I tried to get ChatGPT and other AI tools to script me something to achieve a successful timing attack, rotating the **X-Forwarded-For IP** every 10 requests. AI made a total meal of this and overcomplicated everything. I ended up making a Python script to try and solve this, but I kept getting blocked despite the IP rotation.

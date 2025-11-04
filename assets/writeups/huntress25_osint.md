@@ -1,4 +1,4 @@
----
+]---
 layout: page
 title: Huntress CTF 2025 OSINT
 tags: [CTF, Learning, OSINT]
@@ -12,6 +12,27 @@ tags: [CTF, Learning, OSINT]
 > I let Evelyn over at Harbor Line know that someone from our team might reach out. Her main email is offline right now just in case it was compromised, she's using a temporary address until things get sorted out:
 
 `evelyn.carter@51tjxh.onmicrosoft.com`
+
+Read through the messages and identify likely BEC of Justin Case's account. Comparing his signature in Email 1 vs Email 5, there is a typo-squatted version of th evergate domain:
+
+```
+Original: hxxps://evergatetitle.netlify.app/
+Typo-Squatted: hxxps://evergatetltle.netlify.app/
+```
+
+Entering fake details reveals a pop up with a base64 encoded string: `aHR0cHM6Ly9uMHRydXN0eC1ibG9nLm5ldGxpZnkuYXBwLw==` which decodes to:
+
+`hxxps://n0trustx-blog.netlify.app/`
+
+So flag 1 is `n0trustx`.
+
+Visiting the _'hackers'_ blog, there is a linked [Github](https://github.com/N0TrustX). Reviewing the **spectre.html** file finds:
+
+`<div id="encodedPayload" class="hidden">ZmxhZ3trbDF6a2xqaTJkeWNxZWRqNmVmNnltbHJzZjE4MGQwZn0=</div>`
+
+Which gives the final flag:
+
+**`flag{kl1zklji2dycqedj6ef6ymlrsf180d0f}`**
 
 # Follow the Money - The Sequel
 
