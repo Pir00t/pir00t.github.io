@@ -6,13 +6,13 @@ tags: [CTF, Learning, Warmups]
 
 # Read The Rules
 
-Follow link provided. Inspected the page source code and perform a search for _flag{_ to find the flag:
+Follow link provided. Inspected the page source code and perform a search for **_flag{_** to find the flag:
 
 **`flag{bf61aced6e7f9335385a70f33b20d188}`**
 
 # Technical Support
 
-_Comes with hint that flag may be in discord channel - `#ctf-open-ticket`_
+Comes with hint that flag may be in discord channel - _#ctf-open-ticket_
 
 With the hint, head over to the discord channel `#ctf-open-ticket` and grab the flag: 
 
@@ -58,7 +58,7 @@ Plenty of online QR Code decoders, the output was all messed up but looked like 
 
 # RFC 9309 (AKA Robots Exclusion Protocol)
 
-Start the instance, browse to <url>/robots.txt and perform a search for _flag{_:
+Start the instance, browse to **vm/robots.txt** and perform a search for **_flag{_**:
 
 **`flag{aec1142c199aa5d8ad0f3ae3fa82e13c}`**
 
