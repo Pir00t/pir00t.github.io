@@ -72,7 +72,7 @@ Open the onion link in TOR browser for the flag:
 
 This one took way longer to pick up on the decoding method than the team would like to admit I reckon! After establishing the file was utilising SSTV, used an online [tool](https://sstv-decoder.mathieurenaud.fr/) to extract the image from the WAV. Cropped the unusual 'QR' looking code, which is apparently something called **Aztec** (Thanks ChatGPT):
 
-![huntress_ctf](/assets/img/huntress_ctf25/sstv_decoded.png)
+![sstv_image](/assets/img/huntress_ctf25/sstv_decoded.png)
 
 Found a [decoder](https://zxing.org/w/decode.jspx) online to extract the flag:
 
