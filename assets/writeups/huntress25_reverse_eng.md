@@ -6,7 +6,11 @@ tags: [CTF, Learning, Reverse Engineering]
 
 # Rust Tickler
 
-So we had a rust binary. Running `strings` spotted an encoded one that looked long enough to be the flag.
+So we had a rust binary. Running `strings` spotted an encoded one that looked long enough to be the flag: 
+
+```
+7=06*gagg30d03gf2`f5g5dba3c0hhcd2c`4b,
+```
 
 Opening the file in Ghidra, could see the string being compared by **memcmp**. For fun, wrote a simple Python script for finding flag based on known plaintext and XOR. 
 
