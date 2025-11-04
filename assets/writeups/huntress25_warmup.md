@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Huntress CTF 25 Warmups
+title: Huntress CTF 2025 Warmups
 tags: [CTF, Learning, Warmups]
 ---
 
