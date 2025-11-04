@@ -24,6 +24,7 @@ navbar-links:
   Writeups: 
     - Huntress 2023: "hctf23_main"
     - Huntress 2024: "hctf24_main"
+    - Huntress 2025: "hctf25_main"
   Resources:
     - Blog Setup: "blog_init"
     - CTF / Learning: "ctf_resources"
