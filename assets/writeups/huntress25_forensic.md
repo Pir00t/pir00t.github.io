@@ -92,3 +92,65 @@ This gave a better view of the commands. Final flag suggested how the webshell w
 ![webshellz3](/assets/img/huntress_ctf25/webshellz3.png)
 
 **`flag{fb4e078a739ac4ce687eb78c2e51aafe}`**
+
+# Puzzle Pieces Redux
+
+> Well, I accidentally put my important data into a bunch of executables... just don't ask, okay?
+> It was fine... until my cat Sasha stepped on my keyboard and messed everything up! OH NOoOoO00!!!!!111
+> Can you help me recover my important data?
+
+Unpacking the provided archive contains 16 PE32 files; all with same number of bytes. Try the old trusty `grep` for **flag{** and find it in a891a220.bin. Good start, so I used `xxd` to establish offset in the file, then extended this for all the files:
+
+```bash
+find . -type f -exec xxd -s 0x189b0 -l 16 {} \;
+
+000189b0: 3561 6266 610a 0000 b0a3 0140 0100 0000  5abfa......@....
+000189b0: 6639 6637 330a 0000 b0a3 0140 0100 0000  f9f73......@....
+000189b0: 6438 3564 350a 0000 b0a3 0140 0100 0000  d85d5......@....
+000189b0: 3136 6637 330a 0000 b0a3 0140 0100 0000  16f73......@....
+000189b0: 3439 6638 620a 0000 b0a3 0140 0100 0000  49f8b......@....
+000189b0: 6536 3831 370a 0000 b0a3 0140 0100 0000  e6817......@....
+000189b0: 3032 7d0a 0000 0000 b0a3 0140 0100 0000  02}........@....
+000189b0: 6439 6331 610a 0000 b0a3 0140 0100 0000  d9c1a......@....
+000189b0: 3233 630a 0000 0000 b0a3 0140 0100 0000  23c........@....
+000189b0: 3838 6132 640a 0000 b0a3 0140 0100 0000  88a2d......@....
+000189b0: 666c 6167 7b0a 0000 b0a3 0140 0100 0000  flag{......@....
+000189b0: 3438 3937 390a 0000 b0a3 0140 0100 0000  48979......@....
+000189b0: 3566 3933 660a 0000 b0a3 0140 0100 0000  5f93f......@....
+000189b0: 3962 6663 320a 0000 b0a3 0140 0100 0000  9bfc2......@....
+000189b0: 6265 3761 310a 0000 b0a3 0140 0100 0000  be7a1......@....
+000189b0: 6631 3862 610a 0000 b0a3 0140 0100 0000  f18ba......@....
+
+# alternate including file names find . -type f -exec sh -c 'echo "--- {} ---"; xxd -s 0x189b0 -l 16 "{}"' \;
+```
+
+Clearly, within these files we have the relevant components to make the flag. However, there are too many possibilities so lets cut out the known bits to begin:
+
+- a891a220 = flag{
+- 6676585 = 02}
+
+With the flag format being standard, that left 30 characters required to complete the hash, so 6 of the remaining files after immediately ruling out **99fa27fd897.bin** for only having 3 characters.
+
+The challenge itself seemed to give a hint based on the cat name Sa**sha** alongside the **OH NOoOoO00!!!!!111** string. SHA1 didn't provide a pattern of use, but SHA256 did, the first flag file ended with a single 0, while the final piece ended with 8 of them. And we need 8 pieces to build the flag. Retrieval and concat of pieces can be achieved with:
+
+```bash
+RESULT=""
+while read -r filename; do
+    OFFSET=0x189b0
+
+    FRAGMENT_HEX=$(xxd -s $OFFSET -l 5 -p "$filename")
+    CLEAN_FRAGMENT_TEXT=$(echo "$FRAGMENT_HEX" | xxd -r -p | tr -d '\000')
+
+    echo "[+] Extracted from: $filename -> $CLEAN_FRAGMENT_TEXT" >&2
+
+    RESULT="${RESULT}${CLEAN_FRAGMENT_TEXT}"
+done < <((find . -type f -print0 | xargs -0 sha256sum) | awk '
+    {
+        match($1, /0*$/);
+        if (RLENGTH > 0) {
+            print RLENGTH, $2, $1
+        }
+    }' | sort -k1,1n -k3 | awk '{print $2}')
+
+echo "$RESULT"
+```
