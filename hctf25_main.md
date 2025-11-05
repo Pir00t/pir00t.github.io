@@ -11,7 +11,7 @@ For Cyber Security Awareness Month, the team at Huntress ran a CTF through the m
 
 This was my third year taking part, second with a team. I'm grateful for having others to rely on and bounce ideas off, especially this year when my participation was hindered due to the day job (Zero Days eh!).
 
-Our team **7 dogs in a trenchcoat** - completed 89.2% of the challenges; finishing in 138th place overall. A solid effort considering we all had things preventing us from spending as much time as we may have liked on some of the challenges.
+Our team **7 dogs in a trenchcoat** - completed 89.2% of the challenges; finishing in 138th place overall. A solid effort considering we all couldn't take part or had things preventing us from spending as much time as we may have liked on some of the challenges.
 
 Other team members:
 
@@ -19,6 +19,7 @@ Other team members:
 - [Oshikuru](https://jjolley91.github.io/blog/)
 - [dancrodev](https://github.com/dancrodev/cyberctf)
 - [CilantroToast](https://github.com/Sil3ntgh0st)
+- [Only A User]()
 
 ![huntress_ctf](/assets/img/huntress_ctf25/participation.jpg)
 
@@ -27,7 +28,6 @@ In the links below I'll be providing my solutions to the challenges which are gr
 - [Warmups](assets/writeups/huntress25_warmup.md)
 - [Forensics](assets/writeups/huntress25_forensic.md)
 - [Malware](assets/writeups/huntress25_malware.md)
-- [Misc](assets/writeups/huntress25_misc.md)
 - [OSINT](assets/writeups/huntress25_osint.md)
 - [Reverse Engineering](assets/writeups/huntress25_reverse_eng.md)
 - [Web](assets/writeups/huntress25_web.md)
