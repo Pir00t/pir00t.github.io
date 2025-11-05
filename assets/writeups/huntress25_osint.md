@@ -1,4 +1,4 @@
-]---
+---
 layout: page
 title: Huntress CTF 2025 OSINT
 tags: [CTF, Learning, OSINT]
@@ -13,14 +13,14 @@ tags: [CTF, Learning, OSINT]
 
 `evelyn.carter@51tjxh.onmicrosoft.com`
 
-Read through the messages and identify likely BEC of Justin Case's account. Comparing his signature in Email 1 vs Email 5, there is a typo-squatted version of th evergate domain:
+Read through the messages and identify likely BEC of Justin Case's account. Comparing his signature in Email 1 vs Email 5, there is a typo-squatted version of the evergatetitle domain:
 
 ```
 Original: hxxps://evergatetitle.netlify.app/
 Typo-Squatted: hxxps://evergatetltle.netlify.app/
 ```
 
-Entering fake details reveals a pop up with a base64 encoded string: `aHR0cHM6Ly9uMHRydXN0eC1ibG9nLm5ldGxpZnkuYXBwLw==` which decodes to:
+Visting this site and entering fake details reveals a pop up with a base64 encoded string: `aHR0cHM6Ly9uMHRydXN0eC1ibG9nLm5ldGxpZnkuYXBwLw==` which decodes to:
 
 `hxxps://n0trustx-blog.netlify.app/`
 
