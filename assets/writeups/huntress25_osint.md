@@ -24,7 +24,7 @@ Visting this site and entering fake details reveals a pop up with a base64 encod
 
 `hxxps://n0trustx-blog.netlify.app/`
 
-So flag 1 is `n0trustx`.
+So flag 1 is **`n0trustx`**.
 
 Visiting the _'hackers'_ blog, there is a linked [Github](https://github.com/N0TrustX). Reviewing the **spectre.html** file finds:
 
