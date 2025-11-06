@@ -154,3 +154,5 @@ done < <((find . -type f -print0 | xargs -0 sha256sum) | awk '
 
 echo "$RESULT"
 ```
+
+**`flag{be7a1e6817d85d549f8b5abfaf18ba02}`**
