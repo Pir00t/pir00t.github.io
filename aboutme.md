@@ -67,13 +67,13 @@ I obtained a First Class Honours Degree (BEng) in <strong>Computer Security and 
 <p class="about-text">
 <i class="fa fa-heart"></i>
 <br>
-Outside of day-to-day work, I’m a strong believer in continuous learning. I regularly participate in platforms such as <a href="https://cyberdefenders.org/" target="_blank">CyberDefenders</a> and <a href="https://www.hackthebox.eu/" target="_blank">HackTheBox</a>, and maintain an interest in reverse engineering challenges, malware labs, and emerging adversary techniques.
+Outside of day-to-day work, I’m a strong believer in continuous learning. I regularly engage with various cyber security platforms to stay sharp on reverse engineering, malware labs, and emerging adversary techniques. 
 <br><br>
 
 I’ve also undertaken industry recognised tradecraft through SANS training, completing FOR710: Reverse-Engineering Malware: Advanced Code Analysis (challenge coin recipient) and FOR577: Linux Incident Response & Threat Hunting (GLIR certified).
 
 <br><br>
-I also dabble in learning Polish and Russian (Duolingo still finds me!).
+To balance the screen time, I’m usually found practicing DDPY (yoga, pilates, calisthenics). I also dabble in learning Polish and Russian (Duolingo still finds me!).
 </p>
 
 
