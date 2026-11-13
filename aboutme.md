@@ -12,73 +12,81 @@ Steven Folek<br>
 Pir00t
 </p>
 
-
 <p class="about-text">
 <i class="fa fa-briefcase"></i>
-<br><strong>Senior Principal Security Analyst @ Oracle</strong>
-<br>
-Current focus: <i>Threat Hunting & Research</i> | <i>Enterprise Digital Forensics (Cloud & On-Prem)</i> | <i>Malware Analysis & Reverse Engineering</i>
-<br><br>
-
-Core areas I work in:
-<ul>
-  <li>Enterprise DFIR across Linux, Windows, and Cloud environments</li>
-  <li>Threat hunting driven by MITRE ATT&CK mapping and post-incident analysis</li>
-  <li>Malware analysis, reverse engineering, and YARA development</li>
-  <li>Memory and network forensics</li>
-  <li>Detection improvement through structured investigation feedback loops</li>
-</ul>
+Digital Forensics &amp; Incident Response
 </p>
 
+<p>
+I'm a Digital Forensics and Incident Response (DFIR) professional with over nine years' experience across financial services, SaaS and enterprise environments.
+
+My work focuses on understanding security incidents through forensic investigation, threat research and technical analysis. I've investigated compromised infrastructure, malware, unauthorised access and complex cloud environments, with an emphasis on establishing what happened, identifying the scope of activity and producing evidence-led findings.
+</p>
+
+<h3>Areas of Interest</h3>
+
+<p class="about-text">
+<i class="fa fa-search"></i>
+<strong>Digital Forensics &amp; Incident Response</strong><br>
+Linux, Windows and cloud forensics, incident investigation, forensic triage and evidence analysis.
+</p>
+
+<p class="about-text">
+<i class="fa fa-crosshairs"></i>
+<strong>Threat Hunting &amp; Research</strong><br>
+Hypothesis-driven hunting, adversary tradecraft, threat intelligence and post-incident analysis.
+</p>
+
+<p class="about-text">
+<i class="fa fa-bug"></i>
+<strong>Malware Analysis</strong><br>
+Static and dynamic analysis, reverse engineering, YARA development and understanding attacker tooling.
+</p>
 
 <p class="about-text">
 <i class="fa fa-code"></i>
-<br>
-<strong>Python</strong>
-<ul>
-  <li>Investigation automation</li>
-  <li>Standalone forensic and hunting tooling</li>
-  <li>Custom security tooling to scale analysis workflows</li>
-</ul>
+<strong>Security Engineering &amp; Automation</strong><br>
+Python-based investigation tooling, forensic automation and scalable analysis workflows.
 </p>
-
 
 <p class="about-text">
-<i class="fa fa-history"></i>
-<br>
-Previous roles can be found on my <a href="https://www.linkedin.com/in/steven-folek-822aa9a0/" target="_blank">LinkedIn</a>.
-<br><br>
-
-Earlier in my career I worked on projects such as my 2016 summer internship: <i>Practical side-channel attacks on embedded device cryptography</i>. The presented work and my contribution on key extraction can be viewed on <a href="https://www.youtube.com/watch?v=7D-Hr4Nw0T4" target="_blank">YouTube</a>.
-<br><br>
-
-My university placement as a Helpdesk Technician for an MSP built the foundation for everything that followed. Working across diverse client environments strengthened my networking and systems knowledge, and developed my ability to translate complex technical problems into clear, actionable explanations. That experience culminated in acting as IT and networking lead for the Edinburgh International Film Festival.
+<i class="fa fa-shield"></i>
+<strong>Detection Engineering</strong><br>
+Translating investigative findings into detection opportunities, improving telemetry and identifying visibility gaps.
 </p>
 
+<h3>Tooling &amp; Projects</h3>
+
+<p>
+I'm a strong advocate of building tools to solve practical investigative problems. Much of my work involves Python, developing standalone forensic utilities, automating repetitive analysis and creating workflows that help investigators work with large datasets more effectively.
+</p>
+
+<p>
+Outside of my professional work, I maintain a number of personal projects and research interests, which I occasionally document here and publish through <a href="https://github.com/Pir00t">GitHub</a>.
+</p>
+
+<h3>Background</h3>
 
 <p class="about-text">
 <i class="fa fa-graduation-cap"></i>
-<br>
-I obtained a First Class Honours Degree (BEng) in <strong>Computer Security and Forensics</strong> from Edinburgh Napier University (supervised by the brilliant
-<a href="https://www.napier.ac.uk/people/bill-buchanan" target="_blank">Bill Buchanan OBE</a>). My honours <a href="https://web.archive.org/web/20190214195159/https://www.iidi.napier.ac.uk/c/publications/publicationid/13388150" target="_blank">project</a> focused on the creation of portable <i>Ransomware Analysis and Detection Systems</i>.
+First Class Honours BEng in Computer Security and Forensics<br>
+Edinburgh Napier University
 </p>
 
+<p>
+My honours project focused on portable ransomware analysis and detection systems. My career began in IT support and infrastructure, working across varied client environments before moving into security engineering and eventually specialising in DFIR.
+</p>
+
+<p class="about-text">
+<i class="fa fa-certificate"></i>
+SANS FOR710 – Reverse-Engineering Malware: Advanced Code Analysis<br>
+SANS FOR577 – Linux Incident Response &amp; Threat Hunting<br>
+GIAC GLIR
+</p>
+
+<h3>Outside of Security</h3>
 
 <p class="about-text">
 <i class="fa fa-heart"></i>
-<br>
-Outside of day-to-day work, I’m a strong believer in continuous learning. I regularly engage with various cyber security platforms to stay sharp on reverse engineering, malware labs, and emerging adversary techniques. 
-<br><br>
-
-I’ve also undertaken industry recognised tradecraft through SANS training, completing FOR710: Reverse-Engineering Malware: Advanced Code Analysis (challenge coin recipient) and FOR577: Linux Incident Response & Threat Hunting (GLIR certified).
-
-<br><br>
-To balance the screen time, I’m usually found practicing DDPY (yoga, pilates, calisthenics). I also dabble in learning Polish and Russian (Duolingo still finds me!).
-</p>
-
-
-<p class="about-text">
-<i class="fa fa-users"></i>
-<br>
-If you’re interested in DFIR, threat hunting, reverse engineering, or just want to talk shop — feel free to reach out using the links below.
+DDPY (Yoga, Pilates and Calisthenics), learning Polish and Russian (being hounded by a green owl called Duo!), and various other interests away from the keyboard.
 </p>
