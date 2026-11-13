@@ -69,24 +69,35 @@ Outside of my professional work, I maintain a number of personal projects and re
 
 <p class="about-text">
 <i class="fa fa-graduation-cap"></i>
-First Class Honours BEng in Computer Security and Forensics<br>
+<strong>First Class Honours BEng in Computer Security and Forensics</strong>
+<br>
 Edinburgh Napier University
 </p>
 
 <p>
-My honours project focused on portable ransomware analysis and detection systems. My career began in IT support and infrastructure, working across varied client environments before moving into security engineering and eventually specialising in DFIR.
+My honours project focused on portable ransomware analysis and detection systems.
+
+My career began in IT support and infrastructure while at University, working across varied client environments before moving landing my first role in DFIR at Lloyds.
 </p>
 
 <p class="about-text">
 <i class="fa fa-certificate"></i>
-SANS FOR710 – Reverse-Engineering Malware: Advanced Code Analysis<br>
-SANS FOR577 – Linux Incident Response &amp; Threat Hunting<br>
-GIAC GLIR
+<strong>SANS FOR710</strong> – Reverse-Engineering Malware: Advanced Code Analysis
+</p>
+
+<p class="about-text">
+<i class="fa fa-certificate"></i>
+<strong>SANS FOR577</strong> – Linux Incident Response &amp; Threat Hunting
+</p>
+
+<p class="about-text">
+<i class="fa fa-certificate"></i>
+<strong>GIAC GLIR</strong>
 </p>
 
 <h3>Outside of Security</h3>
 
 <p class="about-text">
 <i class="fa fa-heart"></i>
-DDPY (Yoga, Pilates and Calisthenics), learning Polish and Russian (being hounded by a green owl called Duo!), and various other interests away from the keyboard.
+DDPY (yoga, pilates and calisthenics), learning Polish and Russian (being hounded by a green owl called Duo!), and various other interests away from the keyboard.
 </p>
