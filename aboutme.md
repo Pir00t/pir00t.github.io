@@ -82,18 +82,23 @@ My career began in IT support and infrastructure while at University, working ac
 
 <p class="about-text">
 <i class="fa fa-certificate"></i>
-<strong>SANS FOR710</strong> – Reverse-Engineering Malware: Advanced Code Analysis
+<strong>SANS FOR710</strong> – Reverse-Engineering Malware: Advanced Code Analysis (Awarded Challenge Coin)
 </p>
 
 <p class="about-text">
 <i class="fa fa-certificate"></i>
-<strong>SANS FOR577</strong> – Linux Incident Response &amp; Threat Hunting
+<strong>SANS FOR577</strong> – Linux Incident Response &amp; Threat Hunting (GIAC GLIR)
 </p>
 
-<p class="about-text">
-<i class="fa fa-certificate"></i>
-<strong>GIAC GLIR</strong>
-</p>
+<div style="margin: 20px 0;">
+<div data-iframe-width="150"
+     data-iframe-height="270"
+     data-share-badge-id="6f7407cc-069c-4a6e-a2d5-3e5cd025a40d"
+     data-share-badge-host="https://www.credly.com">
+</div>
+</div>
+
+<script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
 
 <h3>Outside of Security</h3>
 
